@@ -1,0 +1,118 @@
+body{
+    
+        background-image: url('../images/background-portfolio2.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: sans-serif;
+        font-size: 100%;
+        max-width: 100%;
+        width: 2000px;
+        margin: auto;
+        text-align: center;
+    }
+    #container {
+        padding: 30px;
+        background-color: #F8F8F8;
+        margin: 0 15%;
+        min-width: 300px;
+    }
+    header {
+        text-align: center;
+    }
+    
+    header h1 {
+        text-align: center;
+        font-family:  'Kaushan Script', cursive;
+        font-weight: 400;
+        font-size: 4em;
+        border-bottom: 2px orange;
+        line-height: 130%;
+    }
+    h1 {
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+      h2 {
+        color: #FF6600;
+        font-family: 'Bad Script', cursive;
+        line-height: 2em;
+    }
+    
+    main img {
+        width: 20%;
+        min-width: 200px;
+        max-width: 1000px;
+        /*height: 100%;*/
+        margin: auto;
+        display: block;
+        border-radius: 10px;
+    }
+    #cake img {
+        width: 50%;
+        min-width: 200px;
+        max-width: 1000px;
+        /*height: 100%;*/
+        margin: auto;
+        display: block;
+        border-radius: 10px;
+    }
+
+    article {
+    background-color: beige;
+    padding: 20px 40px 40px 40px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: .2em .2em .5em #999;
+    text-align: left;
+    width: auto;
+}
+    
+    /* styles for our footer */
+    footer {
+        font-family: 'Prompt', sans-serif;
+        color: black;
+        border-top: 1px solid #5C6556;
+        margin-top: 100px;
+        text-align: center;
+
+    }
+    .label{
+font-weight: bold;
+font-variant: small-caps;
+font-style: normal;
+
+
+    }
+
+    .button {
+        border-top: 1px solid #7cc2ed;
+        background: #c5d665;
+        background: -webkit-gradient(linear, left top, left bottom, from(#cf753e), to(#c5d665));
+        background: -webkit-linear-gradient(top, #cf753e, #c5d665);
+        background: -moz-linear-gradient(top, #cf753e, #c5d665);
+        background: -ms-linear-gradient(top, #cf753e, #c5d665);
+        background: -o-linear-gradient(top, #cf753e, #c5d665);
+        padding: 5px 10px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+        -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+        box-shadow: rgba(0,0,0,1) 0 1px 0;
+        text-shadow: rgba(0,0,0,.4) 0 1px 0;
+        color: #0d090d;
+        font-size: 14px;
+        font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+        text-decoration: none;
+        vertical-align: middle;
+        }
+     .button:hover {
+        border-top-color: #28597a;
+        background: #28597a;
+        color: #24c7bf;
+        }
+     .button:active {
+        border-top-color: #f3e5fc;
+        background: #f3e5fc;
+        }
